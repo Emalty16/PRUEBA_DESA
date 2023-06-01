@@ -6,6 +6,51 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Created on : 31 may 2023, 18:13:49
     Author     : LABORATORIO 04
 */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
 
+header{
+    background-color: darkred;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+h1{
+    color: blanchedalmond;
+    text-align: center;
+}
+
+aside{
+    width: 10%;
+    height: 100%;
+    padding-right: 10px;
+    float: left;
+    font-style: italic;
+    background-color: dodgerblue;
+}
+
+p{
+    font-style: normal;
+    font-size: medium;
+    color: beige;
+}
+
+nav{
+    background-color: lavenderblush;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
 
